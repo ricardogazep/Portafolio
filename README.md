@@ -1,4 +1,4 @@
-# Proyecto: Portafolio Web de Ricardo Garduño
+# Portafolio Web de Ricardo Garduño
 
 Este proyecto contiene todo lo relacionado con Ricardo Garduño, incluyendo:
 
