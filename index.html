@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/ico/favicon.ico" type="image/x-icon">
+
     <title>Ricardo Garduño | Portafolio</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="src/css/index.css">
     <link rel="stylesheet" href="src/css/acerca_de_mi.css">
     <link rel="stylesheet" href="src/css/experiencia.css">
+    <link rel="stylesheet" href="src/css/formacion.css">
 
     <!-- Iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -72,7 +75,7 @@
         </div>
     </section>
 
-    <!-- Secciones vacías para completar después -->
+    <!-- SECCIONES -->
     <section id="acerca" class="acerca-section">
         <div class="acerca-container">
             <h2>Acerca de mí</h2>
@@ -88,7 +91,7 @@
     <section id="experiencia" class="experiencia-section">
         <h2>Experiencia Laboral</h2>
 
-        <!-- ITEM 1 -->
+        <!-- Plastiglas de México -->
         <div class="exp-item">
             <div class="exp-text">
                 <h3>Plastiglas de México</h3>
@@ -108,7 +111,7 @@
         </div>
 
 
-        <!-- ITEM 2 -->
+        <!-- IMEF Universitario -->
         <div class="exp-item invert">
             <div class="exp-text">
                 <h3>IMEF Universitario</h3>
@@ -130,10 +133,11 @@
         </div>
 
 
-        <!-- ITEM 3 -->
+        <!-- Bit Electronics -->
         <div class="exp-item">
             <div class="exp-text">
                 <h3>Bit Electronics</h3>
+                <p>(2022)</p>
                 <br>
                 <p>Especialización en diagnóstico y reparación de equipos Lenovo (PCs y tablets) en el área de garantías y cotizaciones. 
                     Desarrollo de habilidades técnicas sólidas y experiencia práctica en resolución de fallas en dispositivos electrónicos.</p>
@@ -147,7 +151,36 @@
 </section>
 
 
-    <section id="formacion"></section>
+    <section id="formacion" class="academic-section">
+        <h2>Formación Académica</h2>
+
+        <div class="academic-container">
+
+            <!-- Tarjeta 1 -->
+            <div class="academic-card">
+                <img src="src/png/UAEMEX_LOGO.png" alt="UAEMex Logo">
+                <div class="academic-info">
+                    <h3>Licenciatura en Actuaría</h3>
+                    <p class="school">Universidad Autónoma del Estado de México</p>
+                    <p class="years">2020 – actualidad</p>
+                    <p class="details">Promedio: 8.8</p>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="academic-card">
+                <img src="src/png/CBTIS_LOGO.png" alt="CBTis 203 Logo">
+                <div class="academic-info">
+                    <h3>Técnico Laboratorista Químico</h3>
+                    <p class="school">CBTis No. 203</p>
+                    <p class="years">2017 – 2020</p>
+                    <p class="details">Promedio: 9.0</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <section id="contacto"></section>
 
     <script src="src/js/navbar.js"></script>

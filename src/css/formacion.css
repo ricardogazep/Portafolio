@@ -1,0 +1,100 @@
+/* Sección general */
+.academic-section {
+    padding: 80px 20px;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+        url("/src/jpg/IMEF_CONGRESO.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-start-end-radius: 60px;
+}
+
+.academic-section h2 {
+    font-size: 2.3rem;
+    margin-bottom: 40px;
+    color: white;
+}
+
+/* Contenedor de las tarjetas */
+.academic-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Tarjetas */
+.academic-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.academic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+/* Logos */
+.academic-card img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+/* Texto dentro de la tarjeta */
+.academic-info {
+    text-align: left;
+}
+
+.academic-info h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #111;
+}
+
+.academic-info .school {
+    margin: 5px 0;
+    color: #444;
+    font-size: 1rem;
+}
+
+.academic-info .years {
+    font-weight: bold;
+    margin-top: 4px;
+    color: #222;
+}
+
+.academic-info .details {
+    margin-top: 4px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Responsivo para móviles */
+@media (max-width: 600px) {
+    .academic-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .academic-card img {
+        margin: 0 0 15px 0;
+    }
+
+    .academic-info {
+        text-align: center;
+    }
+
+    .academic-info h3 {
+        font-size: 1.2rem;
+    }
+}
