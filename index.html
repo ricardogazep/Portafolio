@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ricardo Garduño | Portafolio</title>
-    <link rel="stylesheet" href="src/css/index.css">
 
-    <!-- Iconos (FontAwesome) -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/acerca_de_mi.css">
+    <link rel="stylesheet" href="src/css/experiencia.css">
+
+    <!-- Iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <!-- Fuente Montserrat de Google -->
+
+    <!-- Fuente Montserrat -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+
+    <!-- Motion One (CORRECTO) -->
+    <script src="https://unpkg.com/@motionone/dom/dist/motion-one.umd.js"></script>
+
 </head>
+
 <body>
 
     <!-- ================= NAVBAR ================= -->
@@ -76,11 +85,65 @@
         </div>
     </section>
 
-    <section id="experiencia"></section>
+    <section id="experiencia" class="experiencia-section">
+        <h2>Experiencia Laboral</h2>
+
+        <!-- ITEM 1 -->
+        <div class="exp-item">
+            <div class="exp-text">
+                <h3>Plastiglas de México</h3>
+                <br>
+                <p><strong>Desarrollo de proyectos de manufactura:</strong> Mesa de corte para empaques de PVC, 
+                    para la precisa fabricación de lámina acrílica
+                    <br><br>
+                    <strong>Elaboración de tableros de productividad:</strong> Tableros de control de producción 
+                    en Excel y dashboards de análisis de datos con 
+                    Power BI a nivel empresa y mejoras de eficiencia.</p>
+            </div>
+            
+            <div class="exp-img">
+                <img src="src/jpg/PLASTIGLAS.jpeg" alt="Plastiglas" />
+            </div>
+        </div>
+
+
+        <!-- ITEM 2 -->
+        <div class="exp-item invert">
+            <div class="exp-text">
+                <h3>IMEF Universitario</h3>
+                <br>
+                <p>Presidente del capítulo en la Facultad de Economía, 
+                    gestionando proyectos académicos y de vinculación.</p>
+            </div>
+        
+            <div class="exp-img">
+                <img src="src/jpg/IMEF.jpg" alt="IMEF" />
+            </div>
+        </div>
+
+
+        <!-- ITEM 3 -->
+        <div class="exp-item">
+            <div class="exp-text">
+                <h3>Laboratorista Químico</h3>
+                <br>
+                <p>Prácticas técnicas en CBTis 203, con experiencia en procesos químicos 
+                    y manejo de laboratorio.</p>
+            </div>
+
+            <div class="exp-img">
+                <img src="src/png/CBTIS.PNG" alt="Laboratorio" />
+            </div>
+        </div>
+
+</section>
+
+
     <section id="formacion"></section>
     <section id="contacto"></section>
 
     <script src="src/js/navbar.js"></script>
+    <script src="src/js/scroll.js"></script>
 
 </body>
 </html>

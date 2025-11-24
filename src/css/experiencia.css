@@ -1,0 +1,75 @@
+.experiencia-section {
+width: 100%;
+max-width: 1100px;
+margin: 0 auto;
+padding: 40px 20px;
+text-align: center;
+}
+
+.experiencia-section h2 {
+    margin-top: 50px;
+    font-size: 36px;
+    margin-bottom: 80px;
+}
+
+.exp-item {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 60px;
+gap: 20px;
+}
+
+
+.exp-text {
+flex: 1;
+}
+
+
+.exp-text h3 {
+margin: 0;
+font-size: 1.6rem;
+}
+
+
+.exp-text p {
+font-size: 1rem;
+line-height: 1.5;
+margin-top: 10px;
+}
+
+
+.exp-img {
+flex: 1;
+text-align: center;
+}
+
+
+.exp-img img {
+width: 100%;
+max-width: 350px;
+border-radius: 12px;
+object-fit: cover;
+}
+
+
+/* Alternar izquierda/derecha */
+.invert {
+flex-direction: row-reverse;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .exp-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .invert {
+        flex-direction: column;
+    }
+
+    .exp-img img {
+        max-width: 90%;
+    }
+
+}
